@@ -1,0 +1,28 @@
+{
+  "name": "shorty",
+  "version": "1.0.0",
+  "description": "Bit.ly link generator",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./run_tests.sh"
+  },
+  "author": "NaughtySpirit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naughtyspirit/shorty/issues"
+  },
+  "homepage": "https://github.com/naughtyspirit/shorty",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "bitly": "^1.2.5",
+    "request-promise": "^0.3.3",
+    "co": "^4.1.0"
+  }
+}
