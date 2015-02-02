@@ -1,7 +1,7 @@
 var Querystring = require('querystring')
 var Request = require('request-promise')
 
-var Shorty = function(api_key) {
+var Shortlify = function(api_key) {
     this.config = {
         apiKey: api_key,
         url: "https://api-ssl.bitly.com/v3/user/link_save?"
@@ -10,7 +10,7 @@ var Shorty = function(api_key) {
     return this;
 };
 
-Shorty.prototype.getShortLink = function* getShortLink(link) {
+Shortlify.prototype.getShortLink = function* getShortLink(link) {
     var query = Querystring.stringify({
         access_token: this.config.apiKey,
         longUrl: link
@@ -23,4 +23,4 @@ Shorty.prototype.getShortLink = function* getShortLink(link) {
     return result.data.link_save.link
 }
 
-module.exports = Shorty
+module.exports = Shortlify

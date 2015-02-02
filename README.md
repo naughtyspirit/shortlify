@@ -1,4 +1,4 @@
-# Shorty
+# Shortlify
 
 Get short links from Bit.ly
 
@@ -10,7 +10,7 @@ You need to get an API key from bit.ly and place it in the config.js
 
 ```javascript
 
-var shorty = new Shorty('<API_KEY>')
-var link = yield shorty.getShortLink("http://duckduckgo.com")
+var shortlify = new Shortlify('<API_KEY>')
+var link = yield shortlify.getShortLink("http://duckduckgo.com")
 
 ```
