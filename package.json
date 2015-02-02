@@ -6,6 +6,18 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naughtyspirit/shortlify"
+  },
+  "keywords": [
+    "link",
+    "shorten",
+    "bitly",
+    "url",
+    "shortener",
+    "client"
+  ],
   "scripts": {
     "test": "./run_tests.sh"
   },
