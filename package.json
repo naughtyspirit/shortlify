@@ -12,9 +12,9 @@
   "author": "NaughtySpirit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/naughtyspirit/shorty/issues"
+    "url": "https://github.com/naughtyspirit/shortlify/issues"
   },
-  "homepage": "https://github.com/naughtyspirit/shorty",
+  "homepage": "https://github.com/naughtyspirit/shortlify",
   "devDependencies": {
     "chai": "^1.10.0",
     "co-mocha": "^1.1.0",
