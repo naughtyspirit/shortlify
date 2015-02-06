@@ -20,7 +20,11 @@ Shortlify.prototype.getShortLink = function* getShortLink(link) {
         method: "GET"
     }
     var result = JSON.parse(yield Request(options))
-    return result.data.link_save.link
+    if(result.status_code == 304 || result.status_code == 200) {
+        return result.data.link_save.link
+    }
+
+    return null
 }
 
 module.exports = Shortlify
